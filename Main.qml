@@ -28,7 +28,7 @@ ApplicationWindow {
         id: view
         anchors.fill: parent
         map.plugin: mapPlugin
-        map.center: positionSource.position.coordinate //QtPositioning.coordinate(10.883409, 106.77921) // Vị trí mặc định
+        map.center: positionSource.position.coordinate 
         map.zoomLevel: 15
 
         MapQuickItem {
@@ -41,7 +41,7 @@ ApplicationWindow {
                 border.width: 2; border.color: "white"
                 radius: 7
             }
-            anchorPoint: Qt.point(7, 7) // Canh giữa marker
+            anchorPoint: Qt.point(7, 7)
         }
         MapQuickItem {
             id: gpsMarker
