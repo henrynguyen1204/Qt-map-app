@@ -12,8 +12,4 @@ Map App is a Qt6 application that uses Qt Quick and Qt MQTT to connect to an MQT
 - Qt 6.5+
 - CMake 3.16+
 - MinGW (or a compatible compiler)
-
-### 2. Clone the repository
-```sh
-git clone https://github.com/yourusername/NewApp.git
-cd NewApp
+![image](https://github.com/user-attachments/assets/e738af69-bfc9-4548-b279-647d2ccfca80)
